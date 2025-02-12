@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import es.santander.ascender.ejerc002.model.ColumnaArquitectonica;
+import es.santander.ascender.ejerc002.model.Columna;
 
 @SpringBootTest
 public class ColumnaArquitectonicaRepositoryTest {
@@ -16,7 +16,7 @@ public class ColumnaArquitectonicaRepositoryTest {
 
     @Test
     public void testCreate(){
-        ColumnaArquitectonica columnaArquitectonica = new ColumnaArquitectonica();
+        Columna columnaArquitectonica = new Columna();
         columnaArquitectonica.setA2(5l);
 
         repository.save(columnaArquitectonica);
