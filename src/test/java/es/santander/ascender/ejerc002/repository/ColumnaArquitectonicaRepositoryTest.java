@@ -17,7 +17,7 @@ public class ColumnaArquitectonicaRepositoryTest {
     @Test
     public void testCreate(){
         ColumnaArquitectonica columnaArquitectonica = new ColumnaArquitectonica();
-        columnaArquitectonica.setA2(4l);
+        columnaArquitectonica.setA2(5l);
 
         repository.save(columnaArquitectonica);
 
